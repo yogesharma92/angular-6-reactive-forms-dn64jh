@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div id="steps" [ngSwitch]="global.step">
+  <app-formreactive *ngSwitchCase="0"></app-formreactive>
+  <app-form-login *ngSwitchCase="1"></app-form-login>
+</div>
